@@ -1,0 +1,29 @@
+﻿FormatVersion: 7
+Name: "Background"
+Script: "LightsBG"
+Config:
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  37d0ab8712d641cda58bde50a5138823:
+    Name: "Background"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  ff99d091e19f4169a3ebf6e41f539a64:
+    Name: "MainForeground"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  cf016c1bf4aa4a11904100bb1940fbc6:
+    Name: "Vignette"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  f5a7adaaec9b4c398da6f7f81e681fc4:
+    Name: "Transition"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

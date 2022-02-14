@@ -1,0 +1,106 @@
+﻿FormatVersion: 7
+Name: "22.2.1_Lyrics"
+Script: "Credits"
+Config:
+  Sentence:
+    Type: "System.String"
+    Value: "EVERY TIME I AM THINKING "
+  Type:
+    Type: "System.Int32"
+    Value: "1"
+    AllowedValues:
+      Basic: "0"
+      LettersfromTop: "1"
+      LettersfromBot: "2"
+      LettersfromCenter: "3"
+      LettersfromDot: "4"
+      Line: "5"
+  Start:
+    Type: "System.Int32"
+    Value: "85921"
+  End:
+    Type: "System.Int32"
+    Value: "90163"
+  FontName:
+    Type: "System.String"
+    Value: "Cocogoose Pro"
+  SpritesPath:
+    Type: "System.String"
+    Value: "sb/Sentences"
+  FontSize:
+    Type: "System.Int32"
+    Value: "48"
+  FontScale:
+    Type: "System.Single"
+    Value: "0.5"
+  FontColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.2941177,0.282353,0.282353,1"
+  FontStyle:
+    Type: "System.Int32"
+    Value: "1"
+    AllowedValues:
+      Regular: "0"
+      Bold: "1"
+      Italic: "2"
+      Underline: "4"
+      Strikeout: "8"
+  GlowRadius:
+    Type: "System.Int32"
+    Value: "0"
+  GlowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,0.3921569"
+  AdditiveGlow:
+    Type: "System.Boolean"
+    Value: "True"
+  OutlineThickness:
+    Type: "System.Int32"
+    Value: "0"
+  OutlineColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.1921569,0.1921569,0.1921569,0.7803922"
+  ShadowThickness:
+    Type: "System.Int32"
+    Value: "0"
+  ShadowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0,0,0,0.3921569"
+  Padding:
+    Type: "OpenTK.Vector2"
+    Value: "0,0"
+  SubtitleY:
+    Type: "System.Single"
+    Value: "180"
+  letterX:
+    Type: "System.Single"
+    Value: "440"
+  PerCharacter:
+    Type: "System.Boolean"
+    Value: "False"
+  TrimTransparency:
+    Type: "System.Boolean"
+    Value: "True"
+  Origin:
+    Type: "System.Int32"
+    Value: "6"
+    AllowedValues:
+      TopLeft: "0"
+      TopCentre: "1"
+      TopRight: "2"
+      CentreLeft: "3"
+      Centre: "4"
+      CentreRight: "5"
+      BottomLeft: "6"
+      BottomCentre: "7"
+      BottomRight: "8"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "727"
+    DisplayName: "Random seed"
+Layers:
+  d8a4ad4a6e3b413e945ab836deef4809:
+    Name: "Sentence"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

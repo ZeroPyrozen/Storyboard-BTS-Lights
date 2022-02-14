@@ -1,0 +1,35 @@
+﻿FormatVersion: 7
+Name: "KiaiHighlight_02"
+Script: "HighlightRing"
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "120315"
+  EndTime:
+    Type: "System.Int32"
+    Value: "158648"
+  BeatDivisor:
+    Type: "System.Int32"
+    Value: "8"
+  FadeTime:
+    Type: "System.Int32"
+    Value: "1000"
+  SpritePath:
+    Type: "System.String"
+    Value: "sb/p/ring.png"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "1"
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  017ae49cdaed4c9da1cc2a93df0e7b95:
+    Name: ""
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
