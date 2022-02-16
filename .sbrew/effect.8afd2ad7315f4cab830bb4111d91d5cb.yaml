@@ -1,0 +1,23 @@
+﻿FormatVersion: 7
+Name: "Loading"
+Script: "Loading"
+Config:
+  LeftOffset:
+    Type: "OpenTK.Vector2"
+    Value: "-200,0"
+  RightOffset:
+    Type: "OpenTK.Vector2"
+    Value: "200,0"
+  Speed:
+    Type: "System.Double"
+    Value: "0.75"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  68c328aceead4f4cbef32a85ebbd0f09:
+    Name: "Loading"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

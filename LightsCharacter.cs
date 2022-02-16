@@ -73,7 +73,6 @@ namespace StorybrewScripts
                 xPosition = 854.0-854.0/customSplit-107.0;
                 origin = OsbOrigin.CentreLeft;
             }
-            Log(854.0/customSplit-107.0);
             var charaSprite = charaLayer.CreateSprite(characterPath, origin);
             var charaBitmap = GetMapsetBitmap(characterPath);
             charaSprite.MoveX(startTime, xPosition);

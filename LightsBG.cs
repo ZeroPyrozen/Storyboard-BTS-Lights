@@ -43,7 +43,7 @@ namespace StorybrewScripts
             bgWhite.Color(78345, 78951, bgWhite.ColorAt(78345), Color4.White);
             SwipeTransition(80769, OrangeColor);
             SwipeTransition(98951, OrangeColor);
-            //SquareTileTransition(98800,99406, GreyColor, Color4.White, OsbEasing.Out);
+
             SwipeTransition(108648, GreyColor);
             TileTransition(118042, 120163, OrangeColor, true);
             bgWhite.Color(119709, 119860, bgWhite.ColorAt(119709), OrangeColor);
@@ -63,30 +63,6 @@ namespace StorybrewScripts
             bgWhite.Color(265012, 265618, bgWhite.ColorAt(265012), Color4.White);
             
         }
-        //Placeholder
-        // string lPath = "sb/placeholder.png";
-        // var lPlaceholder = GetLayer("Vignette").CreateSprite(lPath);
-        // var lBitmap = GetMapsetBitmap(lPath);
-        // lPlaceholder.Scale(0, 0.5);
-        // lPlaceholder.MoveX(0,355.33);
-        // lPlaceholder.Fade(0, Beatmap.GetTimingPointAt(0).BeatDuration,0,1);
-        // lPlaceholder.Fade(292853,0);
-
-        // string tPath = "sb/t-placeholder.png";
-        // var tPlaceholder = GetLayer("Vignette").CreateSprite(tPath);
-        // var tBitmap = GetMapsetBitmap(tPath);
-        // var timeT = 38345;
-        // tPlaceholder.Scale(timeT, 0.5);
-        // tPlaceholder.MoveX(timeT,355.33);
-        // tPlaceholder.MoveY(timeT,330);
-        // tPlaceholder.Fade(timeT, timeT+Beatmap.GetTimingPointAt(0).BeatDuration,0,1);
-        // tPlaceholder.Fade(39557,0);
-        // timeT = 48042;
-        // tPlaceholder.Fade(timeT, timeT+Beatmap.GetTimingPointAt(0).BeatDuration,0,1);
-        // tPlaceholder.Fade(49254,0);
-        // timeT = 57739;
-        // tPlaceholder.Fade(timeT, timeT+Beatmap.GetTimingPointAt(0).BeatDuration,0,1);
-        // tPlaceholder.Fade(58951,0);
         private void SwipeTransition(int time, Color4 customColor)
         {
             string SpritePath = "sb/p/p.png";

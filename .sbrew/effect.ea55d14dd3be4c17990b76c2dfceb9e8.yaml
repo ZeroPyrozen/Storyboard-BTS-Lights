@@ -17,10 +17,10 @@ Config:
       Line: "5"
   Start:
     Type: "System.Int32"
-    Value: "270769"
+    Value: "158951"
   End:
     Type: "System.Int32"
-    Value: "274254"
+    Value: "163800"
   FontName:
     Type: "System.String"
     Value: "Cocogoose Pro"

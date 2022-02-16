@@ -56,6 +56,7 @@
     <Compile Include="HighlightRing.cs" />
     <Compile Include="LightsBG.cs" />
     <Compile Include="LightsCharacter.cs" />
+    <Compile Include="Loading.cs" />
     <Compile Include="SimplifiedLyrics.cs" />
   </ItemGroup>
   <ItemGroup />
