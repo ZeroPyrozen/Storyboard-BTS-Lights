@@ -4,7 +4,7 @@ Script: "Credits"
 Config:
   Sentence:
     Type: "System.String"
-    Value: "どんなに 離れていても届いてる"
+    Value: "どんなに離れていても届いてる"
   Type:
     Type: "System.Int32"
     Value: "4"

@@ -12,18 +12,18 @@ Layers:
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
-  ff99d091e19f4169a3ebf6e41f539a64:
-    Name: "MainForeground"
-    OsbLayer: Background
-    DiffSpecific: No
-    Visible: Yes
   cf016c1bf4aa4a11904100bb1940fbc6:
     Name: "Vignette"
     OsbLayer: Background
     DiffSpecific: No
     Visible: Yes
+  38490a6b954f405bb45b59949354946b:
+    Name: "TileBackground"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
   f5a7adaaec9b4c398da6f7f81e681fc4:
     Name: "Transition"
-    OsbLayer: Background
+    OsbLayer: Foreground
     DiffSpecific: No
     Visible: Yes

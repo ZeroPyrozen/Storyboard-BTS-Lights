@@ -40,23 +40,21 @@ namespace StorybrewScripts
             SpawnCharacter("JN", 119860, 129254);
             SpawnCharacter("JM", 129557, 138951);
 
-            SpawnCharacter("JK", 139254, 148648);
+            SpawnCharacter("JK", 139103, 148648);
             SpawnCharacter("V", 148951, 158648);
 
             SpawnCharacter("SG", 168951, 185618);
             SpawnCharacter("RM", 186224, 205618);
 
-            SpawnCharacter("JM", 205921, 214709);
-            SpawnCharacter("JK", 215618, 226224);
+            SpawnCharacter("JM", 205921, 215163);
+            SpawnCharacter("JK", 215315, 225921);
 
-            SpawnCharacter("JN", 226527, 235921);
-            SpawnCharacter("V", 235921, 245618);
+            SpawnCharacter("JN", 226224, 235921);
+            SpawnCharacter("V", 235921, 245466);
 
             SpawnCharacter("JK", 245618, 255315);
             SpawnCharacter("JM", 255315, 265012);
 
-            // SpawnCharacter("JK", 266224, 284406);
-            // SpawnCharacter("V", 266224, 284406,3);
         }
 
         void SpawnCharacter(string charaInitial, int startTime, int endTime, double customSection=1, double customSplit=3.0)

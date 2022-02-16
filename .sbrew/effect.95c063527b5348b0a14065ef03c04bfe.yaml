@@ -4,7 +4,7 @@ Script: "Credits"
 Config:
   Sentence:
     Type: "System.String"
-    Value: "STORYBOARD BY"
+    Value: "STORYBOARDED BY"
   Type:
     Type: "System.Int32"
     Value: "4"

@@ -51,8 +51,17 @@ namespace StorybrewScripts
             TileTransition(137739, 139406, Color4.White, true);
             SwipeTransition(148800, Color4.White);
             bgWhite.Color(158345, 158951, bgWhite.ColorAt(158345), Color4.White);
+            SwipeTransition(169103, OrangeColor);
+            SwipeTransition(186224, GreyColor);
+            SwipeTransition(205921, OrangeColor);
+            SwipeTransition(215315, GreyColor);
+            TileTransition(225012, 226527, OrangeColor, true);
             bgWhite.Color(225618, 226224, bgWhite.ColorAt(225618), OrangeColor);
+            TileTransition(234709, 236376, Color4.White, true);
+            TileTransition(244406, 246073, Color4.White, true);
+            SwipeTransition(255315,Color4.White);
             bgWhite.Color(265012, 265618, bgWhite.ColorAt(265012), Color4.White);
+            
         }
         //Placeholder
         // string lPath = "sb/placeholder.png";
@@ -117,7 +126,7 @@ namespace StorybrewScripts
         private void TileTransition(int START_TIME, int END_TIME, Color4 squareColor, bool isFadeOut = false)
         {
             int gridSize = 18;
-            var layer = GetLayer("MainForeground");
+            var layer = GetLayer("TileBackground");
             for (int x = -120; x < 760; x += gridSize) {
                 for (int y = 0; y < 480; y += gridSize) {
                     double distance = Math.Sqrt(Math.Pow((x-320),2.0) + Math.Pow((y-240),2.0));

@@ -150,12 +150,18 @@ namespace StorybrewScripts
                 if (!texture.IsEmpty)
                 {
                     var position = new Vector2(letterX, letterY)
-                        + texture.OffsetFor(Origin) * FontScale;
+                        + texture.OffsetFor(Origin) * FontScale;       
+
+                    var tempSubtitleY = SubtitleY;
+
+                    if(letter.ToString() == "'")
+                    {
+                        SubtitleY = (SubtitleY) - lineHeight*FontScale;
+                    }
 
                     var sprite = GetLayer("Sentence").CreateSprite(texture.Path, Origin, position);
 
                     sprite.Scale(Start, FontScale);
-
 
                     if(Type == Style.Basic)
                     {
@@ -210,7 +216,8 @@ namespace StorybrewScripts
                         sprite.MoveY(Timing, SubtitleY);
                     }
                     if (additive) sprite.Additive(Start - 200, End);
-
+                    
+                    SubtitleY = tempSubtitleY;
 
                 }
                 letterX += texture.BaseWidth * FontScale;

@@ -4,7 +4,7 @@ Script: "Credits"
 Config:
   Sentence:
     Type: "System.String"
-    Value: "いつだって 僕の心に差し込む"
+    Value: "いつだって僕の心に差し込む"
   Type:
     Type: "System.Int32"
     Value: "4"
